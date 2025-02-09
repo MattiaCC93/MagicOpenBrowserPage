@@ -32,7 +32,7 @@ void loop() {
             bleKeyboard.write(KEY_RETURN);  // Go to the next line after the loading bar
 
             // Manually type "www.google.com"
-            bleKeyboard.print("start www.google.com");
+            bleKeyboard.print("start www.makerworld.com");
             delay(500);  // Short delay to ensure the text is typed out
 
             bleKeyboard.write(KEY_RETURN);    // Press Enter to execute the command
